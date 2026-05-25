@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://namamu.my.id/sitemap.xml",
+    sitemap: "https://www.chimakonveksi.my.id/sitemap.xml",
   };
 }

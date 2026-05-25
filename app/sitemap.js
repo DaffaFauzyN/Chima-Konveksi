@@ -1,7 +1,7 @@
 import { blogPosts } from "./blog/posts";
 
 export default function sitemap() {
-  const baseUrl = "https://namamu.my.id";
+  const baseUrl = "https://www.chimakonveksi.my.id";
 
   const staticPages = [
     {

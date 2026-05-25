@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata = {
-  metadataBase: new URL("https://namamu.my.id"),
+  metadataBase: new URL("https://www.chimakonveksi.my.id"),
   title: {
     default: "Chima Konveksi | Jasa Konveksi Kaos, Hoodie & Seragam Bandung",
     template: "%s | Chima Konveksi Bandung",
@@ -13,7 +13,7 @@ export const metadata = {
   description: "Solusi produksi fashion brand dan seragam instansi dengan standar kualitas tinggi dan garansi tepat waktu di Bandung.",
   alternates: {
     languages: {
-      "id": "https://namamu.my.id",
+      "id": "https://www.chimakonveksi.my.id",
     },
   },
   // Ganti dengan meta tag dari Google Search Console (metode HTML tag)
