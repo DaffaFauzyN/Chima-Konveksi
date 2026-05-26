@@ -1,5 +1,6 @@
 import "./globals.css";
 import { plusJakartaSans } from "./fonts";
+import { Suspense } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
@@ -30,7 +31,9 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main>{children}</main>
         <Footer />
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        <Suspense fallback={null}>
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        </Suspense>
       </body>
     </html>
   );
