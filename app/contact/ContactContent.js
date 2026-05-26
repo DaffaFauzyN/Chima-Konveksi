@@ -126,6 +126,10 @@ export default function ContactContent() {
 
                       const text = `Halo Chima Konveksi,\n\nSaya ingin memesan/tanya tentang produksi.\n\n*Nama:* ${name}\n*Nomor WA:* ${whatsapp}\n*Kategori:* ${category}\n*Pesan:* ${message}`;
                       const encodedText = encodeURIComponent(text);
+                      window.gtag?.("event", "submit_contact_form", {
+                        event_category: "conversion",
+                        event_label: category,
+                      });
                       window.open(`https://wa.me/6285520784930?text=${encodedText}`, '_blank');
                     }}
                     className="space-y-10"

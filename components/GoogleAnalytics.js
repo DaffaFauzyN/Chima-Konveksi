@@ -17,6 +17,25 @@ export default function GoogleAnalytics({ gaId }) {
     });
   }, [pathname, searchParams, gaId]);
 
+  useEffect(() => {
+    const handleClick = (e) => {
+      const link = e.target.closest("a");
+      if (!link) return;
+      const href = link.href || "";
+
+      if (href.includes("wa.me") || href.includes("whatsapp.com")) {
+        window.gtag?.("event", "click_whatsapp", {
+          event_category: "engagement",
+          event_label: link.textContent?.trim() || "WhatsApp Icon",
+          link_url: href,
+        });
+      }
+    };
+
+    document.addEventListener("click", handleClick);
+    return () => document.removeEventListener("click", handleClick);
+  }, []);
+
   if (!gaId) return null;
 
   return (
