@@ -1,10 +1,11 @@
 import Script from "next/script";
 
 export default function GoogleAnalytics({ gaId }) {
-  if (!gaId) return null;
+  if (!gaId) return <div id="ga-debug" style={{display:"block",background:"red",color:"white",padding:"10px",textAlign:"center"}}>GA DISABLED (no gaId)</div>;
 
   return (
     <>
+      <div id="ga-debug" style={{display:"block",background:"green",color:"white",padding:"10px",textAlign:"center"}}>GA ACTIVE: {gaId}</div>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
         strategy="afterInteractive"
