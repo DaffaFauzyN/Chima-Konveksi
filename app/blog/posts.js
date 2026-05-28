@@ -56,7 +56,7 @@ Sebagai gambaran kasar, berikut estimasi biaya produksi kaos distro di Bandung:
 
 Chima Konveksi di Bandung hadir sebagai solusi produksi kaos distro yang mengutamakan kualitas jahit premium. Dengan pengalaman sejak 2008, kami memahami kebutuhan brand lokal akan kualitas ekspor dengan harga yang bersahabat. Setiap produk melalui 3 tahap quality control untuk memastikan hasil yang konsisten.
 
-**Tertarik memulai produksi?** Hubungi tim kami melalui WhatsApp untuk diskusi desain dan estimasi biaya.
+**Tertarik memulai produksi?** Kunjungi halaman [**Produksi Kaos Custom Bandung**](/produksi-kaos-custom) atau hubungi tim kami melalui WhatsApp untuk diskusi desain dan estimasi biaya.
     `,
   },
   {
@@ -113,7 +113,7 @@ Semakin banyak quantity, semakin rendah harga per pcs. Ini karena biaya tetap (p
 
 Chima Konveksi berpengalaman dalam produksi seragam korporat untuk berbagai perusahaan nasional. Mulai dari bank, kontraktor, hingga tech company. Kami menggunakan teknik bordir komputer presisi tinggi dengan sistem QC 3 lapis untuk memastikan setiap seragam yang dikirim sesuai standar.
 
-**Konsultasikan kebutuhan seragam perusahaan Anda** dengan tim produksi kami untuk mendapatkan penawaran harga terbaik.
+**Konsultasikan kebutuhan seragam perusahaan Anda** dengan tim produksi kami untuk mendapatkan penawaran harga terbaik. Lihat layanan lengkap kami di halaman [**Vendor Seragam Kantor Bandung**](/vendor-seragam-kantor).
     `,
   },
   {
@@ -198,7 +198,7 @@ Berdasarkan pengalaman produksi ribuan kaos, kami merekomendasikan:
 - **Untuk kaos premium** — Rubber ink (nyaman, hasil matte)
 - **Untuk desain kompleks** — DTF (detail tinggi, full color)
 
-Chima Konveksi menguasai ketiga teknik sablon ini. Tim produksi kami siap membantu Anda memilih teknik terbaik sesuai kebutuhan brand.
+Chima Konveksi menguasai ketiga teknik sablon ini. Tim produksi kami siap membantu Anda memilih teknik terbaik sesuai kebutuhan brand. Pelajari lebih lanjut tentang layanan [**Sablon Kaos Bandung**](/sablon-kaos-bandung) kami.
     `,
   },
   {
@@ -269,7 +269,7 @@ Untuk memulai brand fashion lokal, kombinasi yang paling direkomendasikan adalah
 
 Chima Konveksi menyediakan berbagai pilihan bahan berkualitas dengan harga kompetitif. Kami juga membantu Anda memilih bahan yang tepat sesuai segmen pasar dan budget produksi.
 
-**Konsultasikan kebutuhan bahan Anda** dengan tim kami untuk mendapatkan rekomendasi terbaik.
+**Konsultasikan kebutuhan bahan Anda** dengan tim kami untuk mendapatkan rekomendasi terbaik. Lihat pilihan [**Produksi Kaos Custom**](/produksi-kaos-custom) dan [**Konveksi Hoodie Premium**](/konveksi-hoodie-premium) kami.
     `,
   },
 ];

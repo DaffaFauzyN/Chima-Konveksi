@@ -12,13 +12,53 @@ export const metadata = {
     template: "%s | Chima Konveksi Bandung",
   },
   description: "Solusi produksi fashion brand dan seragam instansi dengan standar kualitas tinggi dan garansi tepat waktu di Bandung.",
+  keywords: [
+    "konveksi bandung",
+    "jasa konveksi",
+    "vendor garment bandung",
+    "konveksi kaos bandung",
+    "konveksi hoodie bandung",
+    "konveksi seragam bandung",
+    "produksi pakaian custom",
+    "chima konveksi",
+  ],
   alternates: {
     languages: {
       "id": "https://www.chimakonveksi.my.id",
     },
   },
-  // Ganti dengan meta tag dari Google Search Console (metode HTML tag)
-  // verification: { google: "xxxxxxxxxxx" },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || "",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Chima Konveksi",
+    locale: "id_ID",
+      images: [
+        {
+          url: "/case-study-featured.png",
+          width: 1200,
+          height: 630,
+          alt: "Chima Konveksi Bandung - Jasa Konveksi Kaos, Hoodie & Seragam Custom",
+        },
+      ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    creator: "@chimakonveksi",
+    images: ["/case-study-featured.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  category: "business",
 };
 
 export default function RootLayout({ children }) {

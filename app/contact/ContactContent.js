@@ -103,6 +103,24 @@ export default function ContactContent() {
                   </motion.div>
                 ))}
               </div>
+
+              {/* Google Maps */}
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                className="bg-slate-50 p-4 md:p-6 rounded-[2.5rem] md:rounded-[3.5rem] border border-slate-100 overflow-hidden"
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.318!2d107.556942!3d-6.914744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTQnNTMuMSJTIDEwN8KwMzMnMjUuMCJF!5e0!3m2!1sid!2sid!4v1"
+                  width="100%"
+                  height="250"
+                  style={{ border: 0, borderRadius: "1.5rem" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Lokasi Workshop Chima Konveksi Bandung"
+                />
+              </motion.div>
             </div>
 
             {/* Right: Contact Form - GLASSMORPHISM CARD */}

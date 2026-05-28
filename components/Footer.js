@@ -20,11 +20,15 @@ export default function Footer() {
             <a href="https://wa.me/6285520784930" target="_blank" rel="noopener noreferrer" className="w-12 h-12 md:w-14 md:h-14 bg-slate-900 text-white rounded-2xl flex items-center justify-center transition-all shadow-sm border border-slate-100">
               <span className="text-xs font-black">WA</span>
             </a>
-            {['IG', 'LI', 'YT'].map(social => (
-              <a key={social} href="#" className="w-12 h-12 md:w-14 md:h-14 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-900 hover:bg-slate-900 hover:text-white transition-all shadow-sm border border-slate-100">
-                <span className="text-xs font-black">{social}</span>
-              </a>
-            ))}
+            <a href="https://www.instagram.com/chimakonveksi/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 md:w-14 md:h-14 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-900 hover:bg-slate-900 hover:text-white transition-all shadow-sm border border-slate-100">
+              <span className="text-xs font-black">IG</span>
+            </a>
+            <a href="https://www.linkedin.com/company/chimakonveksi/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 md:w-14 md:h-14 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-900 hover:bg-slate-900 hover:text-white transition-all shadow-sm border border-slate-100">
+              <span className="text-xs font-black">LI</span>
+            </a>
+            <a href="https://www.youtube.com/@chimakonveksi" target="_blank" rel="noopener noreferrer" className="w-12 h-12 md:w-14 md:h-14 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-900 hover:bg-slate-900 hover:text-white transition-all shadow-sm border border-slate-100">
+              <span className="text-xs font-black">YT</span>
+            </a>
           </div>
         </div>
         

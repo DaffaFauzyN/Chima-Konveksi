@@ -14,18 +14,18 @@ export const metadata = {
     "produksi pakaian custom"
   ],
   alternates: {
-    canonical: "https://chima-konveksi.vercel.app",
+    canonical: "https://www.chimakonveksi.my.id",
   },
   openGraph: {
     title: "Chima Konveksi Bandung | Jasa Konveksi Kaos, Hoodie & Seragam Custom",
     description: "Vendor garment & jasa konveksi premium di Bandung sejak 2008. Spesialis produksi kaos distro, hoodie custom, seragam kantor, sablon & pakaian custom.",
-    url: "https://chima-konveksi.vercel.app",
+    url: "https://www.chimakonveksi.my.id",
     siteName: "Chima Konveksi",
     locale: "id_ID",
     type: "website",
     images: [
       {
-        url: "https://chima-konveksi.vercel.app/case-study-featured.png",
+        url: "https://www.chimakonveksi.my.id/case-study-featured.png",
         width: 1200,
         height: 630,
         alt: "Chima Konveksi Bandung",
@@ -36,7 +36,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Chima Konveksi Bandung | Jasa Konveksi Kaos, Hoodie & Seragam Custom",
     description: "Vendor garment & jasa konveksi premium di Bandung sejak 2008. Spesialis produksi kaos distro, hoodie custom, seragam kantor, sablon & pakaian custom.",
-    images: ["https://chima-konveksi.vercel.app/case-study-featured.png"],
+    images: ["https://www.chimakonveksi.my.id/case-study-featured.png"],
   },
 };
 
@@ -45,9 +45,9 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Chima Konveksi",
-    "image": "https://chima-konveksi.vercel.app/case-study-featured.png",
-    "@id": "https://chima-konveksi.vercel.app/#localbusiness",
-    "url": "https://chima-konveksi.vercel.app",
+    "image": "https://www.chimakonveksi.my.id/case-study-featured.png",
+    "@id": "https://www.chimakonveksi.my.id/#localbusiness",
+    "url": "https://www.chimakonveksi.my.id",
     "telephone": "+6285520784930",
     "priceRange": "$$",
     "address": {

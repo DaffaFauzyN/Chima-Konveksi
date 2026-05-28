@@ -6,7 +6,7 @@ export default function BreadcrumbSchema({ items }) {
       "@type": "ListItem",
       "position": i + 1,
       "name": item.name,
-      "item": `https://chima-konveksi.vercel.app${item.path}`,
+      "item": `https://www.chimakonveksi.my.id${item.path}`,
     })),
   };
 

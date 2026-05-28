@@ -11,12 +11,12 @@ export const metadata = {
     "vendor seragam korporat",
   ],
   alternates: {
-    canonical: "https://chima-konveksi.vercel.app/portfolio",
+    canonical: "https://www.chimakonveksi.my.id/portfolio",
   },
   openGraph: {
     title: "Portfolio Hasil Produksi | Chima Konveksi",
     description: "Lihat portofolio produksi garment Chima Konveksi. Bukti kualitas jahitan premium untuk kemeja korporat, jaket hoodie distro, kaos sablon event, dan celana custom.",
-    url: "https://chima-konveksi.vercel.app/portfolio",
+    url: "https://www.chimakonveksi.my.id/portfolio",
     type: "website",
   },
 };

@@ -13,16 +13,38 @@ export const metadata = {
     "vendor sablon bandung",
   ],
   alternates: {
-    canonical: "https://chima-konveksi.vercel.app/sablon-kaos-bandung",
+    canonical: "https://www.chimakonveksi.my.id/sablon-kaos-bandung",
   },
   openGraph: {
     title: "Sablon Kaos Bandung | Chima Konveksi",
     description: "Jasa sablon kaos di Bandung. Plastisol, Rubber, DTF. Kualitas ekspor untuk brand distro dan merchandise.",
-    url: "https://chima-konveksi.vercel.app/sablon-kaos-bandung",
+    url: "https://www.chimakonveksi.my.id/sablon-kaos-bandung",
     type: "website",
   },
 };
 
 export default function SablonKaos() {
-  return <LandingContent />;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Sablon Kaos Bandung",
+    "description": "Jasa sablon kaos di Bandung. Melayani sablon plastisol, rubber ink, DTF printing untuk kaos distro, merchandise event, dan seragam.",
+    "brand": { "@type": "Brand", "name": "Chima Konveksi" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "IDR",
+      "lowPrice": "5000",
+      "highPrice": "25000",
+      "offerCount": "5000+",
+      "availability": "https://schema.org/InStock",
+      "url": "https://www.chimakonveksi.my.id/sablon-kaos-bandung"
+    },
+    "areaServed": { "@type": "City", "name": "Bandung" }
+  };
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <LandingContent />
+    </>
+  );
 }

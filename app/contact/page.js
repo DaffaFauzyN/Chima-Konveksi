@@ -10,12 +10,12 @@ export const metadata = {
     "workshop konveksi bandung",
   ],
   alternates: {
-    canonical: "https://chima-konveksi.vercel.app/contact",
+    canonical: "https://www.chimakonveksi.my.id/contact",
   },
   openGraph: {
     title: "Hubungi Kami | Chima Konveksi - Alamat & Kontak",
     description: "Siap memulai produksi brand fashion atau seragam Anda? Hubungi tim Chima Konveksi melalui WhatsApp atau kunjungi workshop kami di Bandung.",
-    url: "https://chima-konveksi.vercel.app/contact",
+    url: "https://www.chimakonveksi.my.id/contact",
     type: "website",
   },
 };

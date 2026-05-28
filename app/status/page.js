@@ -4,7 +4,7 @@ export const metadata = {
   title: "Status Layanan | Chima Konveksi Bandung",
   description: "Status operasional layanan Chima Konveksi Bandung. Cek jam operasional, antrian produksi, dan ketersediaan layanan.",
   alternates: {
-    canonical: "https://chima-konveksi.vercel.app/status",
+    canonical: "https://www.chimakonveksi.my.id/status",
   },
 };
 

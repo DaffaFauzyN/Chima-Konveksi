@@ -11,12 +11,12 @@ export const metadata = {
     "panduan konveksi distro",
   ],
   alternates: {
-    canonical: "https://chima-konveksi.vercel.app/blog",
+    canonical: "https://www.chimakonveksi.my.id/blog",
   },
   openGraph: {
     title: "Blog Konveksi & Vendor Garment | Chima Konveksi Bandung",
     description: "Tips memilih bahan, teknik sablon, estimasi biaya produksi, dan cara membangun brand fashion.",
-    url: "https://chima-konveksi.vercel.app/blog",
+    url: "https://www.chimakonveksi.my.id/blog",
     type: "website",
   },
 };

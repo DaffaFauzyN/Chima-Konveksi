@@ -21,17 +21,17 @@ export async function generateMetadata({ params }) {
       "vendor garment bandung",
     ],
     alternates: {
-      canonical: `https://chima-konveksi.vercel.app/blog/${post.slug}`,
+      canonical: `https://www.chimakonveksi.my.id/blog/${post.slug}`,
     },
     openGraph: {
       title: `${post.title} | Chima Konveksi Bandung`,
       description: post.excerpt,
-      url: `https://chima-konveksi.vercel.app/blog/${post.slug}`,
+      url: `https://www.chimakonveksi.my.id/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
       images: [
         {
-          url: `https://chima-konveksi.vercel.app${post.image}`,
+          url: `https://www.chimakonveksi.my.id${post.image}`,
           width: 1200,
           height: 630,
           alt: post.title,
