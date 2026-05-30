@@ -8,32 +8,6 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "chima-konveksi.vercel.app",
-          },
-        ],
-        destination: "https://www.chimakonveksi.my.id/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "chimakonveksi.my.id",
-          },
-        ],
-        destination: "https://www.chimakonveksi.my.id/:path*",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
