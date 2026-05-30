@@ -5,9 +5,34 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
-  // Optimization for faster local builds
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "chima-konveksi.vercel.app",
+          },
+        ],
+        destination: "https://www.chimakonveksi.my.id/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "chimakonveksi.my.id",
+          },
+        ],
+        destination: "https://www.chimakonveksi.my.id/:path*",
+        permanent: true,
+      },
+    ];
   },
 };
 
