@@ -8,6 +8,21 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        missing: [
+          {
+            type: "host",
+            value: "www.chimakonveksi.my.id",
+          },
+        ],
+        destination: "https://www.chimakonveksi.my.id/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

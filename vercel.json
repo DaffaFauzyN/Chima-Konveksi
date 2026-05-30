@@ -2,29 +2,5 @@
   "name": "chima-konveksi",
   "buildCommand": "next build",
   "outputDirectory": ".next",
-  "framework": "nextjs",
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "chima-konveksi.vercel.app"
-        }
-      ],
-      "destination": "https://www.chimakonveksi.my.id/$1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "chimakonveksi.my.id"
-        }
-      ],
-      "destination": "https://www.chimakonveksi.my.id/$1",
-      "permanent": true
-    }
-  ]
+  "framework": "nextjs"
 }
